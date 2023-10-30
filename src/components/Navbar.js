@@ -86,10 +86,10 @@ function Navbar() {
               {isDropdownOpen && (
                 <ul className="dropdown-menu">
                   <li className="user-profile-btn">
-                    <a href="/Login">User Profile</a>
+                    <Link to="/Login">User Profile</Link>
                   </li>
                   <li className="settings-btn">
-                    <a href="/Settings">Settings</a>
+                    <Link to="/Settings">Settings</Link>
                   </li>
                   <li>
                   <button onClick={logOut} className="logout-btn">Log Out</button>
