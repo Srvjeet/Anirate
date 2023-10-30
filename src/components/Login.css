@@ -1,0 +1,81 @@
+.login-card {
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    background-color: #768d70;
+    height: 700px;
+    width: 1450px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.login-logo {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 48%;
+    font-family: 'Oswald';
+    font-size: 50px;
+}
+
+.form-style {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 650px;
+}
+
+.labels {
+    font-family: 'Oswald';
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 1px;
+    margin-left: -80px;
+}
+
+.input-field-style {
+    border-radius: 10px;
+    background-color: #CDD6C5;
+    height: 30px;
+    border: none;
+    width: 350px;
+    margin-left: -80px;
+}
+
+.login-button-style {
+    border-radius: 10px;
+    background-color: #CDD6C5;
+    height: 35px;
+    border: none;
+    margin-top: 30px;
+    width: 200px;
+    font-family: 'Oswald';
+}
+
+.login-button-style:hover {
+    border-style: solid;
+    background-color: #768d70;
+}
+
+.google-button-style {
+    border-radius: 10px;
+    background-color: #CDD6C5;
+    height: 35px;
+    border: none;
+    width: 200px;
+    font-family: 'Oswald';
+    margin-top: 400px;
+    margin-left: 650px;
+}
+
+.google-button-style:hover {
+    border-style: solid;
+    background-color: #768d70;
+}
+
+.signup-suggestion {
+    margin-top: 5px;
+    margin-left: 50px;
+    font-size: 14px;
+}
+
+.signup-suggestion:hover {
+    text-decoration: underline;
+}

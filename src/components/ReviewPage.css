@@ -1,0 +1,157 @@
+.review-page-card {
+    position: relative;
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    background-color: #768d70;
+    height: 630px;
+    width: 1450px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+h2 {
+    font-family: 'Oswald';
+}
+
+.movie-img {
+    position: absolute;
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    background-color: #CDD6C5;
+    height: 350px;
+    width: 250px;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.movie-title-rp {
+    position: absolute;
+    font-family: 'Oswald';
+    font-size: 26px;
+    margin-top: 420px;
+    margin-left: 60px;
+}
+
+.movie-director-rp {
+    position: absolute;
+    font-family: 'Oswald';
+    font-size: 18px;
+    margin-top: 460px;
+    margin-left: 60px;
+}
+
+.movie-des-title {
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+.movie-description-rp {
+    position: absolute;
+    font-family: 'Oswald';
+    font-size: 18px;
+    margin-left: 400px;
+    margin-top: 90px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+.fav-btn {
+    position: absolute;
+    margin-top: 490px;
+    margin-left: 60px;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.fav-btn:focus {
+    color: red;
+}
+
+.heart {
+    height: 28px;
+}
+
+.rev-title {
+    position: absolute;
+    margin-top: 150px;
+
+    margin-left: 400px;
+}
+
+.other-revs {
+    position: absolute;
+    margin-top: 220px;
+
+    margin-left: 400px;
+}
+
+.new-hr {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 400px;
+}
+
+hr {
+    position: absolute;
+    border: 1px solid black;
+    margin-top: 330px;
+    margin-left: 400px;
+    width: 1000px;
+}
+
+.your-thoughts {
+    position: absolute;
+    font-family: 'Oswald';
+    font-size: 26px;
+    margin-top: 360px;
+    margin-left: 400px;
+}
+
+.stars-rp {
+    background-color: #CDD6C5;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    margin-left: 5px;
+    margin-top: 410px;
+}
+
+.stars-rp-1 {
+    background-color: #CDD6C5;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    margin-left: 400px;
+    margin-top: 410px;
+}
+
+.leave-review {
+    margin-left: 400px;
+    margin-top: 400px;
+
+    background-color: #CDD6C5;
+    height: 100px;
+    width: 1000px;
+    border-radius: 12px;
+    border: none;
+}
+
+.post-btn {
+    border-radius: 12px;
+    background-color: #CDD6C5;
+    height: 35px;
+    border: none;
+    margin-top: 15px;
+    width: 100px;
+    font-family: 'Oswald';
+    margin-left: 1300px;
+}

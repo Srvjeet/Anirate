@@ -1,0 +1,149 @@
+#nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.navbar {
+    background-color: #768d70;
+    height: 70px;
+}
+
+.logo {
+    position: absolute;
+    color: black;
+    font-family: "Kadwa";
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.logo:hover {
+    background-color: #cdd6c5;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.navigationbar {
+    position: relative;
+    margin-left: 140px;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 19px;
+}
+
+.nav-item-1 {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: -80px;
+}
+
+.nav-item-2 {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 0px;
+}
+
+.nav-item-3 {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 80px;
+}
+
+.nav-item-1:hover {
+    background-color: #cdd6c5;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.nav-item-2:hover {
+    background-color: #cdd6c5;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.nav-item-3:hover {
+    background-color: #cdd6c5;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+li {
+    display: inline;
+    padding: 8px 12px;
+}
+
+
+a {
+    text-decoration: none;
+    font-family: 'Oswald';
+    color: black;
+}
+
+.user-button {
+    display: inline-block;
+    background-color: #768d70;
+    color: black;
+    border: none;
+    width: 70px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.user-button:hover {
+    background-color: #cdd6c5;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    float: right;
+    margin-top: -50px;
+    margin-right: 50px;
+}
+
+
+.dropdown-menu {
+    position: absolute;
+    width: 100px;
+    background-color: #cdd6c5;
+    font-family: 'Oswald';
+    border-radius: 3px;
+    margin-left: -15px;
+    box-shadow: 1px 1px 1px 1px #768d70;
+}
+
+
+.user-profile-btn {
+    display: block;
+    margin-top: 9px;
+    margin-left: -20px;
+}
+
+.settings-btn {
+    display: block;
+    margin-left: -20px;
+}
+
+.logout-btn {
+    display: block;
+    margin-left: 5px;
+    margin-top: -10px;
+    background-color: #cdd6c5;
+    border: none;
+}
+
+.logout-btn:hover {
+    background-color: #cdd6c5;
+    cursor: pointer;
+}

@@ -1,0 +1,30 @@
+.Profile {
+    height: 100px;
+    width: 100px;
+    margin-top: 200px;
+    margin-left: 750px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.file-input {
+    border-radius: 10px;
+    background-color: #768D70;
+    height: 35px;
+    border: none;
+    margin-top: 50px;
+    margin-left: 700px;
+    width: 200px;
+    font-family: 'Oswald';
+}
+
+.save-button {
+    border-radius: 10px;
+    background-color: #768D70;
+    height: 35px;
+    border: none;
+    margin-top: 50px;
+    margin-left: 700px;
+    width: 200px;
+    font-family: 'Oswald';
+}

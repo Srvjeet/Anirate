@@ -1,0 +1,26 @@
+.toprated-card {
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    background-color: #768d70;
+    height: 630px;
+    width: 1450px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.images {
+    margin-left: -10px;
+}
+
+.movie-title {
+    margin-left: -10px;
+}
+
+.author-name {
+    display: block;
+    padding-top: 10px;
+    margin-left: -30px;
+    font-family: 'Oswald';
+    font-size: 18px;
+    white-space: nowrap;
+}

@@ -1,0 +1,50 @@
+.register-card {
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    background-color: #768d70;
+    height: 700px;
+    width: 1450px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.reg-form-style {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 650px;
+}
+
+.reg-labels {
+    font-family: 'Oswald';
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 1.5px;
+    margin-left: -80px;
+}
+
+.reg-button-style {
+    border-radius: 10px;
+    background-color: #CDD6C5;
+    height: 35px;
+    border: none;
+    margin-top: 30px;
+    margin-left: 25px;
+    width: 150px;
+    font-family: 'Oswald';
+    text-align: center;
+}
+
+.reg-button-style:hover {
+    border-style: solid;
+    background-color: #768d70;
+}
+
+.login-suggestion {
+    margin-top: 5px;
+    margin-left: 60px;
+    font-size: 14px;
+}
+
+.login-suggestion:hover {
+    text-decoration: underline;
+}
