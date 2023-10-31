@@ -65,8 +65,7 @@ return (
               id: movie.id
             } }}><img src={movie.image_v} alt="movie" className="images" /></Link>
             <span className='movie-title'>{movie.Title}</span>
-            {/*<span className="author-name">{movie.Author}</span>*/}
-            <span><Rating Rating={movie.Stars}/></span>
+            {/*<span><Rating Rating={movie.Stars}/></span>*/}
             </div>
         ))}
       </div>
